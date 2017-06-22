@@ -10,7 +10,12 @@ package com.danny.designpattern.creational.simplefactory.frame;
  */
 public class Client {
     public static void main(String[] args) {
-        System.out.println(ProductA.class.getSimpleName());
-        AbstractProduct product=ProductFactory.getProduct(ProductA.class.getSimpleName());
+        /*获取ProductA的实例*/
+        AbstractProduct product1=ProductFactory.getProductBySimpleName(ProductA.class.getSimpleName());
+        product1.doSomething();
+
+        /*获取ProductB的实例*/
+        AbstractProduct product2=ProductFactory.getProductBySimpleName(ProductB.class.getSimpleName());
+        product2.doSomething();
     }
 }

@@ -9,7 +9,5 @@ package com.danny.designpattern.creational.simplefactory.frame;
  * @Created on 2017-06-22 00:32:26
  */
 public abstract class AbstractProduct {
-    public void doSomething(){
-
-    }
+    public abstract void doSomething();
 }
