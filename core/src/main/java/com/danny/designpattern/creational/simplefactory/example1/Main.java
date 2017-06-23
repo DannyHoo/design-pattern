@@ -5,7 +5,7 @@ package com.danny.designpattern.creational.simplefactory.example1;
  * @Title: Main
  * @Copyright: Copyright (c) 2016
  * @Description:
- * 权限管理，根据
+ * 权限管理，根据入参(实际情况下可能是登录方式)获得不同权限的用户
  * @Company: lxjr.com
  * @Created on 2017-06-22 10:39:13
  */

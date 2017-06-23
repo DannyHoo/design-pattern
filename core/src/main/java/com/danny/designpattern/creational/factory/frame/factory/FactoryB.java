@@ -1,4 +1,7 @@
-package com.danny.designpattern.creational.factory.frame;
+package com.danny.designpattern.creational.factory.frame.factory;
+
+import com.danny.designpattern.creational.factory.frame.product.AbstractProduct;
+import com.danny.designpattern.creational.factory.frame.product.ProductB;
 
 /**
  * @author huyuyang@lxfintech.com

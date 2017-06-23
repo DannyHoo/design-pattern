@@ -1,5 +1,10 @@
 package com.danny.designpattern.creational.factory.frame;
 
+import com.danny.designpattern.creational.factory.frame.factory.AbstractFactory;
+import com.danny.designpattern.creational.factory.frame.factory.FactoryA;
+import com.danny.designpattern.creational.factory.frame.factory.FactoryB;
+import com.danny.designpattern.creational.factory.frame.product.AbstractProduct;
+
 /**
  * @author huyuyang@lxfintech.com
  * @Title: Client

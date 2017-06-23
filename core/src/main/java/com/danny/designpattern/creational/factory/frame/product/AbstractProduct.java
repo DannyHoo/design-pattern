@@ -1,4 +1,4 @@
-package com.danny.designpattern.creational.factory.frame;
+package com.danny.designpattern.creational.factory.frame.product;
 
 /**
  * @author huyuyang@lxfintech.com
